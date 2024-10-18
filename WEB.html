@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+         
+        body {
+            background-image: url("myfavorite.jpeg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            
+        }
+
+       
+        .login-box {
+           background-color: gray;
+            padding: 20px;
+            border-radius: 10px;
+          margin-left: auto;
+          margin-right: auto;
+            width: 300px;
+            text-align: center;
+        }
+
+     
+        .login-box input[type="text"],
+        .login-box input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+       
+        .login-box input[type="submit"],
+        .login-box input[type="button"] {
+            width: 45%;
+            padding: 10px;
+            margin: 10px 5px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .login-box input[type="submit"] {
+            background-color: #4CAF50; 
+            color: white;
+        }
+
+        .login-box input[type="button"] {
+            background-color: blue; 
+            color: white;
+        }
+
+        .login-box input[type="submit"]:hover {
+            background-color: pink;
+        }
+
+        .login-box input[type="button"]:hover {
+            background-color: black;
+        }
+        .nav {
+background-color: grey;
+overflow: hidden;
+        }
+        .nav a{
+            float: left;
+            color: lightskyblue;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+           font-size: medium;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="nav">
+    <a href="firstpage.html">Home</a>
+    <a href="secondpage.html">services</a>
+    <a href="thirdpage.html">contact</a>
+</div>
+        <div class="login-box">
+            <h2>LOGIN</h2>
+            <form>
+                <input type="text" placeholder="Username" name="username" required>
+                <input type="password" placeholder="Password" name="password" required>
+                <input type="submit" value="Login">
+                <input type="button" value="Cancel">
+                
+            </form>
+        </div>
+</body>
+</html>
